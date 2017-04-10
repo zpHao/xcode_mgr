@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    UILabel *_label1;//成员变量
+}
+@property (nonatomic, strong) UILabel *lable2;//属性
 
 @end
 
