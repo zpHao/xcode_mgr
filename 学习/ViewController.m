@@ -20,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *en = [UILabel new];
+    en.frame = CGRectMake(0, 0, 100, 100);
+    en.backgroundColor = [UIColor redColor];
+    [self.view addSubview:en];
 }
 
 
